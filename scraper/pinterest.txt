@@ -26,4 +26,4 @@ async function pinterest(text) {
         throw error;
     }
 }
-pinterest("berkahesport");
+await pinterest("berkahesport");
