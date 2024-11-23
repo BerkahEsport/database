@@ -1,4 +1,4 @@
-async function pinterest(text) {
+async function pinterest(text ) {
     try {
         const response = await axios.get(`https://id.pinterest.com/search/pins/?autologin=true&q=${encodeURIComponent(text)}`, {
             headers: {
