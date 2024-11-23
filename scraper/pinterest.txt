@@ -26,4 +26,4 @@ const pinterest = async (text) => {
         throw error;
     }
 }
-await pinterest(berkahesport);
+await pinterest("berkahesport");
